@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.bg {
+  font-family: 'Roboto';
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .main-container {
+    width: 90%;
+  }
+}
+.user-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  padding: 10px;
+  font-family: 'Roboto';
+  border-radius: 16px;
+}
+.heading {
+  font-weight: bold;
+  color: #1e293b;
+}
+.par {
+  width: 100%;
+  font-weight: 500;
+  color: #475569;
+}
+
+.decoration {
+  color: #0b69ff;
+  font-weight: bold;
+}
+.list-container {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .heading,
+  .par {
+    text-align: center;
+  }
+  .list-container {
+    display: block;
+  }
+}
+.heading2 {
+  font-weight: 400;
+  color: #334155;
+  text-align: left;
+}
+.sub-head {
+  color: #334155;
+  font-weight: bold;
+}
+.addBtn {
+  background-color: #0b69ff;
+  padding: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+  border-width: 0;
+  border-radius: 5px;
+}
+.input-field {
+  outline: none;
+  border: 1px solid #7e858e;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 10px;
+  width: 250px;
+}
+.form1 {
+  border: 1px solid #7e858e;
+  padding: 10px;
+  display: flex;
+  min-height: 78vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.list-container2 {
+  padding-left: 0;
+  margin-left: 10px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #7e858e;
+  margin-top: 0;
+}
+.table-headings {
+  color: #334155;
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 10px;
+  text-align: left;
+  padding: 5px;
+  border: 1px solid #7e858e;
+  border-bottom: none;
+  margin-bottom: 0;
+}
+.hist {
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #7e858e;
+  min-height: 78vh;
+}
+
+@media (min-width: 768px) {
+  .form1 {
+    width: 45%;
+  }
+  .hist {
+    width: 50%;
+    align-self: flex-start;
+  }
+  .flexi {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .list-container2 {
+    width: 90%;
+  }
+}

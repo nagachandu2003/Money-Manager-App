@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.list-item3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid #7e858e;
+  padding: 5px;
+  width: 100%;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  text-align: left;
+}
+.parity {
+  text-align: left;
+}
+.delBtn {
+  border-width: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+.delImg {
+  height: 20px;
+  width: 20px;
+}

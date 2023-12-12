@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.balance-details {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  border-radius: 8px;
+}
+.income-details {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  border-radius: 8px;
+}
+.expense-details {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+  border-radius: 8px;
+}
+.account-type {
+  color: #7e858e;
+  font-weight: 400;
+  font-size: 20px;
+  padding-bottom: 0;
+}
+.amount-detail {
+  color: #334155;
+  font-weight: 400;
+  font-size: 25px;
+  padding-top: 0;
+}
+.list-item1 {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  .list-item1 {
+    width: 25vw;
+  }
+}
+.image-type {
+  height: 80px;
+  width: 80px;
+}
